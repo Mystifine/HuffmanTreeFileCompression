@@ -149,11 +149,11 @@ The decompression program performs the following tasks:
 ### **Compression Program**
 1. Compile the compression program:
    ```
-   gcc -o compress compress.c
+   gcc -o encode.exe encode.c
    ```
 2. Run the program and provide the input file name:
    ```
-   ./compress
+   ./encode.exe
    ```
    - Enter the file name when prompted.
 
@@ -165,11 +165,11 @@ The decompression program performs the following tasks:
 ### **Decompression Program**
 1. Compile the decompression program:
    ```
-   gcc -o decompress decompress.c
+   gcc -o decode.exe decode.c
    ```
 2. Run the program:
    ```
-   ./decompress
+   ./decode.exe
    ```
 
 3. Outputs:
